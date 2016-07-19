@@ -108,5 +108,9 @@ Example:
 
 - - -
 
+## Functions
 
+### `complex.expi2pi(x)`
+
+Returns `exp(2*pi*i*x)`, equivalent to `complex(math.cos(2*pi*x), math.sin(2*pi*x))`, but more accurate for common values of `x` like 0.5.
 
